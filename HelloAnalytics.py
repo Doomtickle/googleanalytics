@@ -51,7 +51,7 @@ def get_report(analytics):
 
 
 def print_response(response):
-  """Parses and prints the Analytics Reporting API V4 response"""
+  """Parses and prints the Analytics Reporting API V4 response, homie"""
 
   for report in response.get('reports', []):
     columnHeader = report.get('columnHeader', {})
