@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DISCOVERY_URI	HelloAnalytics.py	/^DISCOVERY_URI = ('https:\/\/analyticsreporting.googleapis.com\/$discovery\/rest')$/;"	v
+KEY_FILE_LOCATION	HelloAnalytics.py	/^KEY_FILE_LOCATION = 'My Project-924c97ce89e7.p12'$/;"	v
+SCOPES	HelloAnalytics.py	/^SCOPES = ['https:\/\/www.googleapis.com\/auth\/analytics.readonly']$/;"	v
+SERVICE_ACCOUNT_EMAIL	HelloAnalytics.py	/^SERVICE_ACCOUNT_EMAIL = 'analytics-data@data-rider-163014.iam.gserviceaccount.com'$/;"	v
+ServiceAccountCredentials	HelloAnalytics.py	/^from oauth2client.service_account import ServiceAccountCredentials$/;"	i
+VIEW_ID	HelloAnalytics.py	/^VIEW_ID = '67741511'$/;"	v
+argparse	HelloAnalytics.py	/^import argparse$/;"	i
+build	HelloAnalytics.py	/^from apiclient.discovery import build$/;"	i
+client	HelloAnalytics.py	/^from oauth2client import client$/;"	i
+file	HelloAnalytics.py	/^from oauth2client import file$/;"	i
+get_report	HelloAnalytics.py	/^def get_report(analytics):$/;"	f
+httplib2	HelloAnalytics.py	/^import httplib2$/;"	i
+initialize_analyticsreporting	HelloAnalytics.py	/^def initialize_analyticsreporting():$/;"	f
+main	HelloAnalytics.py	/^def main():$/;"	f
+print_response	HelloAnalytics.py	/^def print_response(response):$/;"	f
+tools	HelloAnalytics.py	/^from oauth2client import tools$/;"	i

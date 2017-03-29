@@ -1,4 +1,5 @@
 """Hello Analytics Reporting API V4."""
+""" HI """
 
 import argparse
 
@@ -51,7 +52,8 @@ def get_report(analytics):
 
 
 def print_response(response):
-  """Parses and prints the Analytics Reporting API V4 response, homie"""
+  """Parses and prints the Analytics Reporting API V4 response"""
+  """Dylan is dumb"""
 
   for report in response.get('reports', []):
     columnHeader = report.get('columnHeader', {})
